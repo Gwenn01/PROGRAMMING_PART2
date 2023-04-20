@@ -1,0 +1,28 @@
+#include <stdio.h>
+#define p printf
+#define s scanf
+int main()
+{
+    int num1, num2;
+    int sum, different, product, quotient;
+   
+    p("Input the first Number: ");
+    s("%d", &num1);
+    p("Input the second Number: ");
+    s("%d", &num2);
+    
+    sum = num1 + num2;
+    p("The sum is: %d \n", sum);
+    
+    different = num2 - num1;
+    p("The different is: %d \n", different);
+    
+    product = num1 * num2;
+    p("The product is: %d \n", product);
+    
+    quotient = num2 / num1;
+    p("The quotient is: %d \n", quotient);
+    
+    return 0;
+    
+}

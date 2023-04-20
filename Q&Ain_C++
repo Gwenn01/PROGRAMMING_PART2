@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	char answer;
+	
+	cout << "  What is the first programming language?" << endl << "  a. Java" << endl << "  b. C#" << endl << "  c. Python" << endl << "  d. C" << endl;
+	
+	cout << "  Answer: ";
+	cin >> answer;
+	
+	if (answer == 'd'){
+	    cout << "===You are correct!===";
+	    }else if (answer == 'a' || answer == 'b' || answer == 'c'){
+	        cout << "===You are wrong!===";
+	        }else {
+	            cout << "===Invalid answer===";
+	            }
+}

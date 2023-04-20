@@ -1,0 +1,63 @@
+body {
+    background-color: aqua;
+}
+
+.tittle {
+    text-align: center;
+    padding: 10px;
+    outline: 10px double black;
+    
+}
+.container {
+    margin 50px
+}
+.container-item {
+    text-align: cemter;
+    float: center;
+    margin: 20px;
+    border: 5px solid black;
+    padding: 20px;
+    
+}
+
+.container2 {
+    margin 20px
+}
+.button {
+    font-family: Sans-Serif;
+    padding: 100px;
+    border: none;
+    margin: 20px;
+    font-size: 50px;
+    transition-duration: 3s;
+}
+
+.button1 {
+    background-color: pink;
+    color: red;
+    border: 10px solid lightgreen;
+    box-shadow: 2px 2px 4px black;
+    float: left;
+}
+.button2 {
+    background-color: yellow;
+    color: orange;
+    border: 10px solid lightgreen;
+    box-shadow: 2px 2px 4px black;
+    float: right
+}
+
+input[type="text"] {
+    width: 80%;
+    margin 20px
+    padding: 20px;
+    border: 1px solid black;
+    border border-radius: 30%;
+}
+#password {
+    width: 80%;
+    margin 20px
+    padding: 20px;
+    border: 1px solid black;
+    border border-radius: 30%;
+}

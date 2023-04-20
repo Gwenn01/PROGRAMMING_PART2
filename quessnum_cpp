@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int attempts = 0;
+	int answer = 7, Answer;
+	
+	do {
+	cout << "  Quess the number 1 - 10: " << endl;
+	cout << "  Answer: ";
+	cin >> Answer;
+	
+	  if (answer != Answer){
+	      cout << "  ===You are wrong===" << endl;
+	      attempts++;   	 
+	  }else if(answer == Answer){
+	       cout <<"  ===You are right==="; 
+	  }
+	  cout << endl;	        	 
+    }while (attempts<3 && Answer != answer);
+
+}

@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+  char answer = 'd', Answer, attempts = 0;
+  
+  cout << " What is 1 + 1?" << endl << "  a. 3"<< endl << "  b. 4" << endl << "  c. 1" << endl << "  d. 2" << endl;
+  
+  do {
+  cout << " Answer: ";
+  cin >> Answer;
+  
+  if (answer != Answer){
+     cout << "  YOU ARE WRONG"<< endl;
+     attempts++;
+     }else if (answer == Answer){
+      cout << "   YOU ARE RIGHT!!!";         
+      }
+                  
+   }while(attempts < 3 && answer != Answer); 
+  
+
+
